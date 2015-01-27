@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-mkdir -p ~/.homestead
+homesteadRoot=~/.homestead
+mkdir -p $homesteadRoot
 
-cp src/stubs/Homestead.yaml ~/.homestead/Homestead.yaml
-cp src/stubs/after.sh ~/.homestead/after.sh
-cp src/stubs/aliases ~/.homestead/aliases
+cp -i src/stubs/Homestead.yaml $homesteadRoot/Homestead.yaml
+cp -i src/stubs/after.sh $homesteadRoot/after.sh
+cp -i src/stubs/aliases $homesteadRoot/aliases
 
 echo "Homestead initialized!"
