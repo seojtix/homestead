@@ -7,3 +7,4 @@ Official documentation [is located here](http://laravel.com/docs/homestead?versi
 ## New improvements:
 - Homestead.yaml don't overwrite if already exists
 - Added configuration to import sql dump from file when creating database (sql/psql options)
+- Nginx virtual hosts now will be created if not exists
